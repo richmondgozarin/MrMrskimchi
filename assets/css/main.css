@@ -3576,7 +3576,6 @@ input, select, textarea {
 					width: 100%;
 					max-width: 100%;
                     height: 45vh;
-                    background: no-repeat center top fixed;
 				}
 
 		}
@@ -3642,7 +3641,8 @@ input, select, textarea {
 			-moz-object-position: 20% 57%;
 			-webkit-object-position: 20% 57%;
 			-ms-object-position: 20% 57%;
-			object-position: 20% 57%;
+            object-position: 20% 57%;
+            background: no-repeat center top fixed;
 		}
 
 /* Banner (style2) */
