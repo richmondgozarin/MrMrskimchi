@@ -3603,7 +3603,7 @@ input, select, textarea {
 			flex-direction: row-reverse;
 		}
 
-			@media screen and (orientation: portrait) {
+			@media screen and (orientation: portrait) and (max-aspect-ratio: 13/9) {
 
 				.banner.style1.orient-right {
 					-moz-flex-direction: column-reverse;
@@ -3642,7 +3642,6 @@ input, select, textarea {
 			-webkit-object-position: 20% 57%;
 			-ms-object-position: 20% 57%;
             object-position: 20% 57%;
-            background: no-repeat center top fixed;
 		}
 
 /* Banner (style2) */
