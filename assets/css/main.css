@@ -3545,7 +3545,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (orientation: portrait) and (max-aspect-ratio: 13/9) {
+		@media screen and (orientation: portrait) and (max-width: 320px) {
 
 			.banner.style1 {
 				-moz-flex-direction: column-reverse;
